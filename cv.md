@@ -27,7 +27,15 @@ I am a person who is interested in web technologies, who wants to learn new thin
 ## CODE EXAMPLE
 ***
 ```
-
+function medalForScore(score) 
+  if (score < 3) {
+    return alert("Bronze");
+  }
+  if (score < 7) {
+    return alert("Silver");
+  }
+    return alert("Gold");
+}; 
 ```
 ## EDUCATION
 ***
